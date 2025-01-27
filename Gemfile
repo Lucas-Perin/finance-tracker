@@ -19,7 +19,9 @@ gem "jbuilder"
 # gem "bcrypt", "~> 3.1.7"
 gem "devise", "~> 4.9", ">= 4.9.4"
 gem "bootstrap", "~> 5.3", ">= 5.3.3"
-gem "sassc-rails", "~> 2.1", ">= 2.1.2"
+gem "jquery-rails", "~> 4.6"
+gem "popper_js", "~> 2.11", ">= 2.11.8"
+gem "dartsass-rails", "~> 0.5.1"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
