@@ -4,8 +4,6 @@ source "https://rubygems.org"
 gem "rails", "~> 8.0.1"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
-# Use sqlite3 as the database for Active Record
-gem "sqlite3", ">= 2.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
@@ -52,6 +50,7 @@ group :development, :test do
 end
 
 group :development do
+  gem "sqlite3", ">= 2.1"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 end
@@ -60,4 +59,8 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+end
+
+group :production do
+  gem "pg", "~> 1.5", ">= 1.5.9"
 end
