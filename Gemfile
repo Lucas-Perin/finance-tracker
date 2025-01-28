@@ -18,6 +18,7 @@ gem "jbuilder"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 gem "devise", "~> 4.9", ">= 4.9.4"
+gem "devise-bootstrap-views", "~> 1.1"
 gem "bootstrap", "~> 5.3", ">= 5.3.3"
 gem "jquery-rails", "~> 4.6"
 gem "popper_js", "~> 2.11", ">= 2.11.8"
