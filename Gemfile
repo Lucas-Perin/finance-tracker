@@ -23,6 +23,7 @@ gem "bootstrap", "~> 5.3", ">= 5.3.3"
 gem "jquery-rails", "~> 4.6"
 gem "popper_js", "~> 2.11", ">= 2.11.8"
 gem "dartsass-rails", "~> 0.5.1"
+gem "iex-ruby-client", "~> 2.1"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
